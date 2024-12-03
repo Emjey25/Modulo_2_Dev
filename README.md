@@ -1,18 +1,28 @@
-## Getting Started
+# 🎓 Sistema de Gestión de Estudiantes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📚 Descripción
+Este proyecto es un sistema simple pero efectivo para gestionar estudiantes y sus calificaciones. Permite crear estudiantes, registrar sus notas y calcular automáticamente sus promedios, determinando si han aprobado o no el curso.
 
-## Folder Structure
+### ✨ Características
+- 👤 Creación de estudiantes con nombre y edad
+- 📊 Cálculo de promedios de notas
+- ✅ Verificación automática de aprobación (nota mínima: 3.0)
+- 📝 Visualización de información del estudiante
 
-The workspace contains two folders by default, where:
+## 🛠️ Estructura del Proyecto
+- `src/`: Código fuente
+  - `Student.java`: Clase que maneja la lógica del estudiante
+  - `App.java`: Clase principal con ejemplos de uso
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🚀 Ejemplo de Uso
+```java
+Student estudiante = new Student("Juan", 20);
+estudiante.calculatePromedio(new double[]{5.0, 4.0, 3.0, 5.0, 1.0});
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📋 Requisitos
+- Java Development Kit (JDK)
+- IDE compatible con Java (como Visual Studio Code)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes alguna sugerencia o mejora, no dudes en proponerla.
